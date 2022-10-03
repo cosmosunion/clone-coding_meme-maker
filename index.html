@@ -9,6 +9,15 @@
   </head>
   <body>
     <canvas id="canvas"></canvas>
+    <input id="line-width" type="range" min="1" max="20" step="1" value="10" />
+    <label for="line-Width">선 두께</label>
+    <input id="color-picker" type="color" />
+    <button id="style-button">채우기</button>
+    <button id="erase-button">지우기</button>
+    <button id="destroy-button">전체삭제</button>
+    <input type="file" accept="image/*" id="image-file" />
+    <input type="text" id="text-input" placeholder="입력 후 더블클릭" />
+    <button id="save-image">저장하기</button>
     <script src="index.js"></script>
   </body>
 </html>
